@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Menu items for the navigation drawer -->
+    <item
+        android:id="@+id/nav_item_1"
+        android:title="Products" />
+    <item
+        android:id="@+id/nav_item_2"
+        android:title="Books" />
+    <!-- Add more menu items as needed -->
+</menu>
