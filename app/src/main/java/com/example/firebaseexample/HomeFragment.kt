@@ -97,7 +97,7 @@ class HomeFragment : Fragment() {
             .setQuery(query, Item::class.java)
             .build()
 
-        val adapter = ItemAdapter(firebaseRecyclerOptions, databaseReference, currentUserEmail)
+        val adapter = ItemAdapter(firebaseRecyclerOptions, databaseReference)
         recyclerView.adapter = adapter
         adapter.startListening()
     }
@@ -153,7 +153,7 @@ class HomeFragment : Fragment() {
             .setQuery(query, Item::class.java)
             .build()
 
-        val adapter = ItemAdapter(firebaseRecyclerOptions, databaseReference, currentUserEmail)
+        val adapter = ItemAdapter(firebaseRecyclerOptions, databaseReference)
         recyclerView.adapter = adapter
         adapter.startListening()
     }
